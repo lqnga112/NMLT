@@ -2,7 +2,7 @@ import product_manager
 import sys
 import io
 
-# --- PHẦN 1: MODULE HÓA MÃ NGUỒN ---
+# -- PHẦN 1: MODULE HÓA MÃ NGUỒN --
 # Thiết lập UTF-8 để hiển thị tiếng Việt trên Terminal Windows
 if sys.stdout.encoding != 'utf-8':
     try:
@@ -65,3 +65,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
